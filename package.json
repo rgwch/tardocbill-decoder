@@ -1,0 +1,19 @@
+{
+  "name": "qr-decoder",
+  "version": "1.0.0",
+  "description": "QR code decoder with Structured Append support",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "decode": "node decode.js",
+    "test": "node test.js"
+  },
+  "keywords": ["qr", "qrcode", "decoder", "structured-append"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.22.10",
+    "jsqr": "^1.4.0"
+  }
+}
