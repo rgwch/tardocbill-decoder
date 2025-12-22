@@ -1,5 +1,5 @@
 {
-  "name": "qr-decoder",
+  "name": "tardocbill-decoder",
   "version": "1.0.0",
   "description": "QR code decoder with Structured Append support",
   "main": "index.js",
