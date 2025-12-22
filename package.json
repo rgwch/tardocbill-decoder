@@ -9,11 +9,19 @@
     "decode": "node decode.js",
     "test": "node test.js"
   },
-  "keywords": ["qr", "qrcode", "decoder", "structured-append"],
+  "keywords": [
+    "qr",
+    "qrcode",
+    "decoder",
+    "structured-append"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^3.2.0",
     "jimp": "^0.22.10",
-    "jsqr": "^1.4.0"
+    "jsqr": "^1.4.0",
+    "pako": "^2.1.0",
+    "pdfjs-dist": "^5.4.449"
   }
 }
