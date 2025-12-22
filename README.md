@@ -1,7 +1,13 @@
 # QR Code Decoder for Swiss Tardoc Bill QR-Sheets
 
-usage: 
+## Install:
 
+```
+git clone https://github.com/rgwch/tardocbill-decoder
+cd tardocbill-decoder
+npm i
+```
+## Usage
 `node decode.js 65525_qr.pdf`
 
 will create 
