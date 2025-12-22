@@ -1,5 +1,9 @@
 # QR Code Decoder for Swiss Tardoc Bill QR-Sheets
 
+## Prerequisites:
+
+ImageMagick must be installed and available
+
 ## Install:
 
 ```
