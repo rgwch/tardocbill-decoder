@@ -2,6 +2,10 @@
 
 Extract XML informations from the [XML 5.0 PDF sheets](https://www.forum-datenaustausch.ch/xml-standards/rechnung) as used for swiss Tardoc bills.
 
+## Prerequisites
+
+This simplified version depends only on zbar-tools: `sudo apt install zbar-tools`
+
 ## Installation
 
 ```
