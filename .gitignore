@@ -17,3 +17,5 @@ node_modules
 target
 build
 *.class
+dist/
+

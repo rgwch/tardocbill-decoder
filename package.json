@@ -1,27 +1,29 @@
 {
   "name": "tardocbill-decoder",
-  "version": "1.0.0",
-  "description": "QR code decoder with Structured Append support",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js",
-    "decode": "node decode.js",
-    "test": "node test.js"
+  "version": "0.1.0",
+  "description": "A decoder for the QR Parts of the XML 5.0 bill (Tardoc)",
+  "repository": {
+    "type": "git",
+    "url": "ssh://pinas:/git/tardocbill-decoder"
   },
-  "keywords": [
-    "qr",
-    "qrcode",
-    "decoder",
-    "structured-append"
-  ],
-  "author": "",
   "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/pako": "^2.0.4",
+    "typescript": "^5.9.3"
+  },
   "dependencies": {
     "canvas": "^3.2.0",
-    "jimp": "^0.22.10",
+    "jimp": "^1.6.0",
     "jsqr": "^1.4.0",
     "pako": "^2.1.0",
-    "pdfjs-dist": "^5.4.449"
+    "pdf2pic": "^3.2.0",
+    "qrcode-reader": "^1.0.4"
   }
 }
