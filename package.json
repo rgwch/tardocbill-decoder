@@ -1,10 +1,10 @@
 {
   "name": "tardocbill-decoder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A decoder for the QR Parts of the XML 5.0 bill (Tardoc)",
   "repository": {
     "type": "git",
-    "url": "ssh://pinas:/git/tardocbill-decoder"
+    "url": "https://github.com/rgwch/tardocbill-decoder"
   },
   "license": "ISC",
   "author": "",
